@@ -35,4 +35,14 @@ public class DataGenerator {
         }
         return userData;
     }
+
+    public static Map<String, String> getRegistrationDataOnTestUser(){
+        Map<String, String> data = new HashMap<>();
+        data.put("email", "asolqa@example.com");
+        data.put("password", "45678");
+        data.put("username", "asolqa");
+        data.put("firstName", "John");
+        data.put("lastName", "Doe");
+        return data;
+    }
 }
